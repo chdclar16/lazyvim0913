@@ -4,9 +4,9 @@ return {
   priority = 1000,
   opts = {
     style = "moon",
-    transparent = true,
-    sidebars = "transparent",
-    floats = "transparent",
+    transparent = false,
+    sidebars = "dark",
+    floats = "dark",
     dim_inactive = true,
   },
 }

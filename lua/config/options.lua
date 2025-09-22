@@ -4,3 +4,6 @@
 --
 local opt = vim.opt
 opt.wrap = true
+
+-- Disables auto format for stupid json files and stupid csv formatting
+vim.g.autoformat_disable_filetypes = { "json", "csv" }
