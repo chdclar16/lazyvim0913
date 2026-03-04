@@ -41,7 +41,7 @@ return {
         }
       end,
     })
-    vim.o.guicursor = "n-v-c:block-Cursor,i-ci:ver25-lCursor,r-cr:hor20-lCursor"
     vim.cmd("colorscheme kanagawa-wave")
+    -- vim.o.guicursor = "n-v-c:block-Cursor,i-ci:ver25-lCursor,r-cr:hor20-lCursor"
   end,
 }
